@@ -153,18 +153,6 @@ public func getOauth2(clientId: String, apiKey: String, oauthType: OAtuhType, co
 }
 
 
-public func moveToWebView(clientID:String){
-    
-    guard let url = URL(string: "https://api.furo.one/\(clientID)") else {
-                    return
-                }
-                if UIApplication.shared.canOpenURL(url) {
-                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                }
-        
-    
-    
-}
 
 
 
