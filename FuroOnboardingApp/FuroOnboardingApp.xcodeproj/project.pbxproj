@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467A7C882A64BB5300C5ECCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7C872A64BB5300C5ECCB /* AppDelegate.swift */; };
+		467A7C8A2A64BB5300C5ECCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7C892A64BB5300C5ECCB /* SceneDelegate.swift */; };
+		467A7C8F2A64BB5300C5ECCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467A7C8D2A64BB5300C5ECCB /* Main.storyboard */; };
+		467A7C912A64BB5500C5ECCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467A7C902A64BB5500C5ECCB /* Assets.xcassets */; };
+		467A7C942A64BB5500C5ECCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467A7C922A64BB5500C5ECCB /* LaunchScreen.storyboard */; };
+		467A7C9F2A64BB5500C5ECCB /* FuroOnboardingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7C9E2A64BB5500C5ECCB /* FuroOnboardingAppTests.swift */; };
+		467A7CA92A64BB5500C5ECCB /* FuroOnboardingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7CA82A64BB5500C5ECCB /* FuroOnboardingAppUITests.swift */; };
+		467A7CAB2A64BB5500C5ECCB /* FuroOnboardingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7CAA2A64BB5500C5ECCB /* FuroOnboardingAppUITestsLaunchTests.swift */; };
+		467A7CB82A64BB9C00C5ECCB /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7CB72A64BB9C00C5ECCB /* OnboardingViewController.swift */; };
+		467A7CBA2A64BBA600C5ECCB /* OnboardingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7CB92A64BBA600C5ECCB /* OnboardingMessage.swift */; };
+		467A7CBC2A64BBB100C5ECCB /* OnboadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7CBB2A64BBB100C5ECCB /* OnboadingCell.swift */; };
+		467A7CBE2A64BBEB00C5ECCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A7CBD2A64BBEB00C5ECCB /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		467A7C9B2A64BB5500C5ECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467A7C7C2A64BB5300C5ECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A7C832A64BB5300C5ECCB;
+			remoteInfo = FuroOnboardingApp;
+		};
+		467A7CA52A64BB5500C5ECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467A7C7C2A64BB5300C5ECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A7C832A64BB5300C5ECCB;
+			remoteInfo = FuroOnboardingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		467A7C842A64BB5300C5ECCB /* FuroOnboardingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuroOnboardingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A7C872A64BB5300C5ECCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		467A7C892A64BB5300C5ECCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		467A7C8E2A64BB5300C5ECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		467A7C902A64BB5500C5ECCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467A7C932A64BB5500C5ECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		467A7C952A64BB5500C5ECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467A7C9A2A64BB5500C5ECCB /* FuroOnboardingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuroOnboardingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A7C9E2A64BB5500C5ECCB /* FuroOnboardingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuroOnboardingAppTests.swift; sourceTree = "<group>"; };
+		467A7CA42A64BB5500C5ECCB /* FuroOnboardingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuroOnboardingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A7CA82A64BB5500C5ECCB /* FuroOnboardingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuroOnboardingAppUITests.swift; sourceTree = "<group>"; };
+		467A7CAA2A64BB5500C5ECCB /* FuroOnboardingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuroOnboardingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		467A7CB72A64BB9C00C5ECCB /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		467A7CB92A64BBA600C5ECCB /* OnboardingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMessage.swift; sourceTree = "<group>"; };
+		467A7CBB2A64BBB100C5ECCB /* OnboadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboadingCell.swift; sourceTree = "<group>"; };
+		467A7CBD2A64BBEB00C5ECCB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467A7C812A64BB5300C5ECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A7C972A64BB5500C5ECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A7CA12A64BB5500C5ECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467A7C7B2A64BB5300C5ECCB = {
+			isa = PBXGroup;
+			children = (
+				467A7C862A64BB5300C5ECCB /* FuroOnboardingApp */,
+				467A7C9D2A64BB5500C5ECCB /* FuroOnboardingAppTests */,
+				467A7CA72A64BB5500C5ECCB /* FuroOnboardingAppUITests */,
+				467A7C852A64BB5300C5ECCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		467A7C852A64BB5300C5ECCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467A7C842A64BB5300C5ECCB /* FuroOnboardingApp.app */,
+				467A7C9A2A64BB5500C5ECCB /* FuroOnboardingAppTests.xctest */,
+				467A7CA42A64BB5500C5ECCB /* FuroOnboardingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467A7C862A64BB5300C5ECCB /* FuroOnboardingApp */ = {
+			isa = PBXGroup;
+			children = (
+				467A7C872A64BB5300C5ECCB /* AppDelegate.swift */,
+				467A7C892A64BB5300C5ECCB /* SceneDelegate.swift */,
+				467A7CB72A64BB9C00C5ECCB /* OnboardingViewController.swift */,
+				467A7CB92A64BBA600C5ECCB /* OnboardingMessage.swift */,
+				467A7CBB2A64BBB100C5ECCB /* OnboadingCell.swift */,
+				467A7CBD2A64BBEB00C5ECCB /* Extensions.swift */,
+				467A7C8D2A64BB5300C5ECCB /* Main.storyboard */,
+				467A7C902A64BB5500C5ECCB /* Assets.xcassets */,
+				467A7C922A64BB5500C5ECCB /* LaunchScreen.storyboard */,
+				467A7C952A64BB5500C5ECCB /* Info.plist */,
+			);
+			path = FuroOnboardingApp;
+			sourceTree = "<group>";
+		};
+		467A7C9D2A64BB5500C5ECCB /* FuroOnboardingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				467A7C9E2A64BB5500C5ECCB /* FuroOnboardingAppTests.swift */,
+			);
+			path = FuroOnboardingAppTests;
+			sourceTree = "<group>";
+		};
+		467A7CA72A64BB5500C5ECCB /* FuroOnboardingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				467A7CA82A64BB5500C5ECCB /* FuroOnboardingAppUITests.swift */,
+				467A7CAA2A64BB5500C5ECCB /* FuroOnboardingAppUITestsLaunchTests.swift */,
+			);
+			path = FuroOnboardingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467A7C832A64BB5300C5ECCB /* FuroOnboardingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A7CAE2A64BB5500C5ECCB /* Build configuration list for PBXNativeTarget "FuroOnboardingApp" */;
+			buildPhases = (
+				467A7C802A64BB5300C5ECCB /* Sources */,
+				467A7C812A64BB5300C5ECCB /* Frameworks */,
+				467A7C822A64BB5300C5ECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuroOnboardingApp;
+			productName = FuroOnboardingApp;
+			productReference = 467A7C842A64BB5300C5ECCB /* FuroOnboardingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		467A7C992A64BB5500C5ECCB /* FuroOnboardingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A7CB12A64BB5500C5ECCB /* Build configuration list for PBXNativeTarget "FuroOnboardingAppTests" */;
+			buildPhases = (
+				467A7C962A64BB5500C5ECCB /* Sources */,
+				467A7C972A64BB5500C5ECCB /* Frameworks */,
+				467A7C982A64BB5500C5ECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A7C9C2A64BB5500C5ECCB /* PBXTargetDependency */,
+			);
+			name = FuroOnboardingAppTests;
+			productName = FuroOnboardingAppTests;
+			productReference = 467A7C9A2A64BB5500C5ECCB /* FuroOnboardingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		467A7CA32A64BB5500C5ECCB /* FuroOnboardingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A7CB42A64BB5500C5ECCB /* Build configuration list for PBXNativeTarget "FuroOnboardingAppUITests" */;
+			buildPhases = (
+				467A7CA02A64BB5500C5ECCB /* Sources */,
+				467A7CA12A64BB5500C5ECCB /* Frameworks */,
+				467A7CA22A64BB5500C5ECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A7CA62A64BB5500C5ECCB /* PBXTargetDependency */,
+			);
+			name = FuroOnboardingAppUITests;
+			productName = FuroOnboardingAppUITests;
+			productReference = 467A7CA42A64BB5500C5ECCB /* FuroOnboardingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467A7C7C2A64BB5300C5ECCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					467A7C832A64BB5300C5ECCB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					467A7C992A64BB5500C5ECCB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 467A7C832A64BB5300C5ECCB;
+					};
+					467A7CA32A64BB5500C5ECCB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 467A7C832A64BB5300C5ECCB;
+					};
+				};
+			};
+			buildConfigurationList = 467A7C7F2A64BB5300C5ECCB /* Build configuration list for PBXProject "FuroOnboardingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467A7C7B2A64BB5300C5ECCB;
+			productRefGroup = 467A7C852A64BB5300C5ECCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467A7C832A64BB5300C5ECCB /* FuroOnboardingApp */,
+				467A7C992A64BB5500C5ECCB /* FuroOnboardingAppTests */,
+				467A7CA32A64BB5500C5ECCB /* FuroOnboardingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467A7C822A64BB5300C5ECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A7C942A64BB5500C5ECCB /* LaunchScreen.storyboard in Resources */,
+				467A7C912A64BB5500C5ECCB /* Assets.xcassets in Resources */,
+				467A7C8F2A64BB5300C5ECCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A7C982A64BB5500C5ECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A7CA22A64BB5500C5ECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467A7C802A64BB5300C5ECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A7C882A64BB5300C5ECCB /* AppDelegate.swift in Sources */,
+				467A7CBE2A64BBEB00C5ECCB /* Extensions.swift in Sources */,
+				467A7CB82A64BB9C00C5ECCB /* OnboardingViewController.swift in Sources */,
+				467A7CBA2A64BBA600C5ECCB /* OnboardingMessage.swift in Sources */,
+				467A7CBC2A64BBB100C5ECCB /* OnboadingCell.swift in Sources */,
+				467A7C8A2A64BB5300C5ECCB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A7C962A64BB5500C5ECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A7C9F2A64BB5500C5ECCB /* FuroOnboardingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A7CA02A64BB5500C5ECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A7CA92A64BB5500C5ECCB /* FuroOnboardingAppUITests.swift in Sources */,
+				467A7CAB2A64BB5500C5ECCB /* FuroOnboardingAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		467A7C9C2A64BB5500C5ECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467A7C832A64BB5300C5ECCB /* FuroOnboardingApp */;
+			targetProxy = 467A7C9B2A64BB5500C5ECCB /* PBXContainerItemProxy */;
+		};
+		467A7CA62A64BB5500C5ECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467A7C832A64BB5300C5ECCB /* FuroOnboardingApp */;
+			targetProxy = 467A7CA52A64BB5500C5ECCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		467A7C8D2A64BB5300C5ECCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467A7C8E2A64BB5300C5ECCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		467A7C922A64BB5500C5ECCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467A7C932A64BB5500C5ECCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		467A7CAC2A64BB5500C5ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		467A7CAD2A64BB5500C5ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		467A7CAF2A64BB5500C5ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K76RWRQBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuroOnboardingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeHyeonLim9298.FuroOnboardingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		467A7CB02A64BB5500C5ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K76RWRQBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuroOnboardingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeHyeonLim9298.FuroOnboardingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		467A7CB22A64BB5500C5ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K76RWRQBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeHyeonLim9298.FuroOnboardingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuroOnboardingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuroOnboardingApp";
+			};
+			name = Debug;
+		};
+		467A7CB32A64BB5500C5ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K76RWRQBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeHyeonLim9298.FuroOnboardingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuroOnboardingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuroOnboardingApp";
+			};
+			name = Release;
+		};
+		467A7CB52A64BB5500C5ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K76RWRQBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeHyeonLim9298.FuroOnboardingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuroOnboardingApp;
+			};
+			name = Debug;
+		};
+		467A7CB62A64BB5500C5ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K76RWRQBL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeHyeonLim9298.FuroOnboardingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuroOnboardingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467A7C7F2A64BB5300C5ECCB /* Build configuration list for PBXProject "FuroOnboardingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A7CAC2A64BB5500C5ECCB /* Debug */,
+				467A7CAD2A64BB5500C5ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A7CAE2A64BB5500C5ECCB /* Build configuration list for PBXNativeTarget "FuroOnboardingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A7CAF2A64BB5500C5ECCB /* Debug */,
+				467A7CB02A64BB5500C5ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A7CB12A64BB5500C5ECCB /* Build configuration list for PBXNativeTarget "FuroOnboardingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A7CB22A64BB5500C5ECCB /* Debug */,
+				467A7CB32A64BB5500C5ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A7CB42A64BB5500C5ECCB /* Build configuration list for PBXNativeTarget "FuroOnboardingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A7CB52A64BB5500C5ECCB /* Debug */,
+				467A7CB62A64BB5500C5ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467A7C7C2A64BB5300C5ECCB /* Project object */;
+}
