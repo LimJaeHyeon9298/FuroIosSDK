@@ -199,3 +199,21 @@ public func createMagicLink(email: String, completion: @escaping (Bool) -> Void)
     }
     task.resume()
 }
+
+
+public func furoWebViewLogin() {
+    
+    guard let url = URL(string: "https://auth.furo.one/login/\(CLIEINT_ID)") else {
+        return
+    }
+    
+    //  Check if the url can be opened
+    if UIApplication.shared.canOpenURL(url) {
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        
+       
+        
+        
+    }
+    
+}

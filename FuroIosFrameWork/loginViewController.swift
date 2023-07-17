@@ -223,8 +223,8 @@ open class LoginViewController: UIViewController {
 
     @objc func googleButtonTapped() {
        print("google")
-   
         loginForGoogle()
+        
         
     }
     
@@ -238,7 +238,7 @@ open class LoginViewController: UIViewController {
     
     @objc func naverButtonTapped() {
         
-        
+        print("Naver")
        loginForNaver()
 
         
